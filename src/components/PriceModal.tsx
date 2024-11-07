@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { RefObject } from "react";
 
 const PriceModal = ({
@@ -58,7 +59,7 @@ const PriceModal = ({
           <input type="checkbox" />
           <span>
             Нажимая на кнопку, я соглашаюсь с условиями
-            <a href=""> Политики конфиденциальности </a>
+            <Link href=""> Политики конфиденциальности </Link>
           </span>
         </div>
       </form>

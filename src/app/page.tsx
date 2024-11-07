@@ -35,7 +35,7 @@ const Home = () => {
         return;
       }
 
-      let offset = dekstopNav.current?.offsetHeight;
+      const offset = dekstopNav.current?.offsetHeight;
       if (window.scrollY > offset + 10) {
         dekstopNav.current?.classList.add("pagecrm_desktop_nav_sticky");
       } else if (window.scrollY < offset - 40) {

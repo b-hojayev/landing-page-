@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -10,15 +11,15 @@ const Footer = () => {
             <span>
               Санкт-Петербург Заозёрная 8, к.2, офис 202 Пн-Пт, 10:00 - 18:00 8
               (812) 409-52-22
-              <a href="mailto:info@alpham.pro">info@alpham.pro</a>
+              <Link href="mailto:info@alpham.pro">info@alpham.pro</Link>
             </span>
             <div className="pagecrm_footer_contacts_icons">
-              <a href="https://vk.com/alpha_marketing_alpham_pro">
+              <Link href="https://vk.com/alpha_marketing_alpham_pro">
                 <img src="/images/vk.webp" alt="vk icon" />
-              </a>
-              <a href="https://t.me/alpham_pro">
+              </Link>
+              <Link href="https://t.me/alpham_pro">
                 <img src="/images/telegram.webp" alt="telegram icon" />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -43,22 +44,22 @@ const Footer = () => {
             <span>Ещё</span>
           </div>
 
-          <a href="/">
+          <Link href="/">
             <img
               src="/images/logo.webp"
               alt="logo"
               className="pagecrm_footer_logo"
             />
-          </a>
+          </Link>
 
           <div className="pagecrm_footer_socials">
             <div className="pagecrm_footer_socials_icons">
-              <a href="https://vk.com/alpha_marketing_alpham_pro">
+              <Link href="https://vk.com/alpha_marketing_alpham_pro">
                 <img src="/images/vk.webp" alt="vk icon" />
-              </a>
-              <a href="https://t.me/alpham_pro">
+              </Link>
+              <Link href="https://t.me/alpham_pro">
                 <img src="/images/telegram.webp" alt="telegram icon" />
-              </a>
+              </Link>
             </div>
 
             <p className="pagecrm_footer_socials_copyright">

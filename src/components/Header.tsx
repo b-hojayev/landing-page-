@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { RefObject } from "react";
 
 const Header = ({
@@ -53,14 +54,14 @@ const Header = ({
       </div>
 
       <div id="dekstopNav" ref={desktopNav} className="pagecrm_header_desktop">
-        <a href="/">
+        <Link href="/">
           <img src="/images/logo.webp" alt="logo" />
-        </a>
+        </Link>
 
         <div className="pagecrm_header_desktop_links">
-          <a href="/">услуги</a>
-          <a href="/">кейсы</a>
-          <a href="/">ЕЩЁ</a>
+          <Link href="/">услуги</Link>
+          <Link href="/">кейсы</Link>
+          <Link href="/">ЕЩЁ</Link>
           <img
             src="/images/search.webp"
             alt="search icon"
@@ -84,11 +85,11 @@ const Header = ({
       </div>
 
       <div className="pagecrm_header_links">
-        <a href="/">Главная</a>
+        <Link href="/">Главная</Link>
         <img src="/images/next.webp" alt="next icon" />
-        <a href="/">Услуги Альфа маркетинг</a>
+        <Link href="/">Услуги Альфа маркетинг</Link>
         <img src="/images/next.webp" alt="next icon" />
-        <a href="/">CRM</a>
+        <Link href="/">CRM</Link>
       </div>
     </header>
   );

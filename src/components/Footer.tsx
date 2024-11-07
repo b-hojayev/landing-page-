@@ -45,11 +45,12 @@ const Footer = () => {
           </div>
 
           <Link href="/">
-            <img
+            {/* <img
               src="/images/logo.webp"
               alt="logo"
               className="pagecrm_footer_logo"
-            />
+            /> */}
+            <span className="text-white">Some logo</span>
           </Link>
 
           <div className="pagecrm_footer_socials">

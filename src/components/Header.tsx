@@ -16,8 +16,9 @@ const Header = ({
     <header className="pagecrm_header">
       <div className="pagecrm_header_mobile">
         <div className="pagecrm_header_top">
-          <img src="/images/logo.webp" alt="logo" />
-          <span>8 812 409-52-22</span>
+          {/* <img src="/images/logo.webp" alt="logo" /> */}
+          <span className="text-white">Some Logo</span>
+          <span>00-00-00-00-0-00</span>
         </div>
 
         <div className="pagecrm_header_center">
@@ -55,7 +56,8 @@ const Header = ({
 
       <div id="dekstopNav" ref={desktopNav} className="pagecrm_header_desktop">
         <Link href="/">
-          <img src="/images/logo.webp" alt="logo" />
+          {/* <img src="/images/logo.webp" alt="logo" /> */}
+          <span className="text-white">Some logo</span>
         </Link>
 
         <div className="pagecrm_header_desktop_links">

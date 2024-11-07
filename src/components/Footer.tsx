@@ -9,15 +9,15 @@ const Footer = () => {
           <div className="pagecrm_footer_contacts">
             <h4>Контакты</h4>
             <span>
-              Санкт-Петербург Заозёрная 8, к.2, офис 202 Пн-Пт, 10:00 - 18:00 8
-              (812) 409-52-22
-              <Link href="mailto:info@alpham.pro">info@alpham.pro</Link>
+              Some address here 8, к.2, офис 2222 Пн-Пт, 10:00 - 18:00
+              00-00-00-00
+              <Link href="mailto:info@alpham.pro">some@mail.pro</Link>
             </span>
             <div className="pagecrm_footer_contacts_icons">
-              <Link href="https://vk.com/alpha_marketing_alpham_pro">
+              <Link href="#">
                 <img src="/images/vk.webp" alt="vk icon" />
               </Link>
-              <Link href="https://t.me/alpham_pro">
+              <Link href="#">
                 <img src="/images/telegram.webp" alt="telegram icon" />
               </Link>
             </div>
@@ -54,16 +54,16 @@ const Footer = () => {
 
           <div className="pagecrm_footer_socials">
             <div className="pagecrm_footer_socials_icons">
-              <Link href="https://vk.com/alpha_marketing_alpham_pro">
+              <Link href="#">
                 <img src="/images/vk.webp" alt="vk icon" />
               </Link>
-              <Link href="https://t.me/alpham_pro">
+              <Link href="#">
                 <img src="/images/telegram.webp" alt="telegram icon" />
               </Link>
             </div>
 
             <p className="pagecrm_footer_socials_copyright">
-              © 2024 Альфа маркетинг Политика конфиденциальности
+              © 2024 Политика конфиденциальности
             </p>
           </div>
         </div>
